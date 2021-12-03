@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<p>File uploaded successfully</p>
+<p>File Name: {{name}}</p>
+<img src="/queueImage/{{name}}" />
+
+<div>The Number is : {{predictedNumber}}</div>
+
+
+{% endblock %}
